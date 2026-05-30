@@ -1,0 +1,36 @@
+{
+  "name": "playwright-ada-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for ADA/WCAG accessibility auditing using Playwright and axe-core",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "inspect": "npx @modelcontextprotocol/inspector dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "accessibility",
+    "wcag",
+    "ada",
+    "playwright",
+    "axe-core",
+    "a11y",
+    "claude"
+  ],
+  "author": "deeksithaa",
+  "license": "MIT",
+  "dependencies": {
+    "@axe-core/playwright": "^4.9.1",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axe-core": "^4.9.1",
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.22.3",
+    "typescript": "^5.4.0"
+  }
+}

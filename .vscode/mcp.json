@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "playwright-ada-mcp": {
+      "command": "npx",
+      "args": ["tsx", "${workspaceFolder}/src/index.ts"]
+    }
+  }
+}
